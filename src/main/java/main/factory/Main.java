@@ -27,9 +27,14 @@ public class Main {
         
         Car opel = new Car("opel", 2002, 200, 1300, 7, 150000);
         opel.printAttributes();
-        opel.goToTravel(200);
+        opel.setMaxFuel(100);
+        opel.setFuel(20);
+        opel.setConsumption(10);
+        opel.fuelUp(29);
+        opel.fuelUp(21);
+        opel.goToTravel(300);
         opel.printAttributes();
-        opel.goToTravel(400);
+        opel.goToTravel(50);
         opel.printAttributes();
     }
 }
